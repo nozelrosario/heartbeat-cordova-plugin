@@ -41,26 +41,6 @@ Use it
 
     cordova.plugins.heartbeat.take(props, successCallback, errorCallback);
 
-Use it with ngCordova
-------------------
-
-	app.controller('HeartBeatController', function ($cordovaHeartBeat) {
-        
-        var props = {
-            seconds: 10,
-            fps: 30
-        };
-
-        $cordovaHeartBeat.take(props).then(
-            function(bpm){
-                console.log("Your heart beat per minute is:" + bpm);
-            }, function(error){
-                console.log("Has not posible measure your heart beat");
-            }
-        );
-        
-    });
-
 Properties
 -------------------
 - seconds: It indicates how many seconds the heart rate will monitor. For more fps more precision in heart rate measure. If the value is not setted the default is 10.
