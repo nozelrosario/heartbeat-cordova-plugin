@@ -23,20 +23,20 @@
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="HeartBeat">
-        <param name="android-package" value="com.litekey.cordova.plugins.heartbeat.HeartBeatPlugin"/>
+        <param name="android-package" value="com.nozelrosario.cordova.plugins.heartbeat.HeartBeatPlugin"/>
       </feature>
     </config-file>
 
-    <source-file src="src/android/HeartBeatPlugin.java" target-dir="src/com/litekey/cordova/plugins/heartbeat/"/>
-     <source-file src="src/android/HeartBeatDetection.java" target-dir="src/com/litekey/cordova/plugins/heartbeat/"/>
-    <source-file src="src/android/CameraActivity.java" target-dir="src/com/litekey/cordova/plugins/heartbeat/"/>
-    <source-file src="src/android/ForegroundCameraPreview.java" target-dir="src/com/litekey/cordova/plugins/heartbeat/"/>
+    <source-file src="src/android/HeartBeatPlugin.java" target-dir="src/com/nozelrosario/cordova/plugins/heartbeat/"/>
+     <source-file src="src/android/HeartBeatDetection.java" target-dir="src/com/nozelrosario/cordova/plugins/heartbeat/"/>
+    <source-file src="src/android/CameraActivity.java" target-dir="src/com/nozelrosario/cordova/plugins/heartbeat/"/>
+    <source-file src="src/android/ForegroundCameraPreview.java" target-dir="src/com/nozelrosario/cordova/plugins/heartbeat/"/>
     <source-file src="src/android/foregroundcamera.xml" target-dir="res/layout"/>
 
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
       <activity 
           android:label="HeartBeat" 
-          android:name="com.litekey.cordova.plugins.heartbeat.CameraActivity"
+          android:name="com.nozelrosario.cordova.plugins.heartbeat.CameraActivity"
           android:configChanges="keyboardHidden" 
           android:exported="false"
           android:theme="@android:style/Theme.Translucent.NoTitleBar">

@@ -1,4 +1,4 @@
-package com.litekey.cordova.plugins.heartbeat;
+package com.nozelrosario.cordova.plugins.heartbeat;
 
 import java.io.IOException;
 

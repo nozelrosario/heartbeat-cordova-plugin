@@ -1,5 +1,4 @@
-package com.litekey.cordova.plugins.heartbeat;
-
+package com.nozelrosario.cordova.plugins.heartbeat;
 import org.apache.cordova.CordovaActivity;
 
 import android.content.Intent;
