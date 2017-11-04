@@ -1,0 +1,11 @@
+{
+  "name": "com.nozelrosario.cordova.plugins.heartbeat",
+  "version": "0.2.2",
+  "description": "Heartbeat plugin",
+  "main": "www/heartbeat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
